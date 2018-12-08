@@ -72,7 +72,7 @@ end
   # #count_elements
   #   count how many times something appears in an array (FAILED - 6)
   def count_elements (array)
-    # array.count {|name| name > 0}
+    return array
   end
   
   
@@ -82,7 +82,8 @@ end
   
   # #merge_data
   #   combines two nested data structures into one (FAILED - 7)
-  def merge_data (array1, array2)
+  def merge_data (keys, data)
+    
     
   end
   
